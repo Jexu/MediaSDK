@@ -1233,8 +1233,8 @@ VAAPIVideoCORE::DoFastCopyExtended(
                 }
                 MFX_CHECK(VA_STATUS_SUCCESS == va_sts, MFX_ERR_DEVICE_FAILED);
 
-                va_sts = vaDestroyImage(m_Display, va_image.image_id);
-                MFX_CHECK(VA_STATUS_SUCCESS == va_sts, MFX_ERR_DEVICE_FAILED);
+                //va_sts = vaDestroyImage(m_Display, va_image.image_id);
+                //MFX_CHECK(VA_STATUS_SUCCESS == va_sts, MFX_ERR_DEVICE_FAILED);
 
             }
         }
